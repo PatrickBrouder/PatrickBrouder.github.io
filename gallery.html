@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+
+    
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/myJavaScript.js"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+        
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="welcome.html">Pen & Pixel</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="welcome.html">Welcome</a></li>
+      <li class="active"><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About Us</a></li> 
+      <li><a href="find.html">Find Us</a></li> 
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+    </ul>
+  </div>
+  </nav>
+        
+  <ul id="filterButtons">
+    <li class="current" data-filter="all"><a href="#">All Categoeries</a></li>
+    <li data-filter="sound"><a href="#">Sound Design</a></li>
+    <li data-filter="video"><a href="#">Video/Projection/Kinetic Text</a></li>
+    <li data-filter="animations"><a href="#">Animation</a></li>
+    <li data-filter="webApplication"><a href="#">Web and Mobile apps</a></li>
+    <li data-filter="game"><a href="#">Games</a></li>
+    <li data-filter="graphic"><a href="#">Graphic Design</a></li>
+    <li data-filter="photo"><a href="#">Photography</a></li>
+   </ul>
+    <ul id="thumbnails">
+        <li class="all video"><a href="images/fullscreen/5.jpg" rel="prettyPhoto[gallery1]" title="First"><img src="images/thumbnails/5.jpg" height="150" width="200"/></a></li>
+		<li class="all graphic"><a href="images/fullscreen/6.png" rel="prettyPhoto[gallery1]" title="Second"><img src="images/thumbnails/6.jpg" height="150" width="200"/></a></li>
+		<li class="all game"><a href="images/fullscreen/8.jpg" rel="prettyPhoto[gallery1]" title="Third"><img src="images/thumbnails/8.jpg" height="150" width="200"/></a></li>
+        <li class="all photo"><a href="images/fullscreen/11.jpg" rel="prettyPhoto[gallery1]" title="Fourth"><img src="images/thumbnails/11.jpg" height="150" width="200"/></a></li>
+        <li class="all photo"><a href="images/fullscreen/18.jpg" rel="prettyPhoto[gallery1]" title="Fifth"><img src="images/thumbnails/18.jpg" height="150" width="200"/></a></li>
+        <li class="all photo"><a href="images/fullscreen/19.jpg" rel="prettyPhoto[gallery1]" title="Sixth"><img src="images/thumbnails/19.jpg" height="150" width="200"/></a></li>
+        <li class="all photo"><a href="images/fullscreen/20.jpg" rel="prettyPhoto[gallery1]" title="Seventh"><img src="images/thumbnails/20.jpg" height="150" width="200"/></a></li>
+        <li class="all photo"><a href="images/fullscreen/21.jpg" rel="prettyPhoto[gallery1]" title="Eight"><img src="images/thumbnails/21.jpg" height="150" width="200"/></a></li>
+        <li class="all video"><a href="images/fullscreen/22.jpg" rel="prettyPhoto[gallery1]" title="Nine"><img src="images/thumbnails/22.jpg" height="150" width="200"/></a></li>
+        <li class="all webApplication game animations"><a href="images/fullscreen/16.swf?" rel="prettyPhoto[flash]" title="Flash demo"><img src="images/thumbnails/16.jpg" alt="Flash demo" height="150" width="200"/></a></li>
+        <li class="all animations graphic"><a href="#inline-1" rel="prettyPhoto" ><img src="images/thumbnails/161.jpg" height="150" width="200"/></a>
+	       <div id="inline-1" class="hide">
+		      <object data="images/fullscreen/161.pdf" type="application/pdf"></object>
+            </div>
+      </li>
+				
+    </ul>
+</div>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+        
+	
+    </script>
+      
+  </body>
+</html>

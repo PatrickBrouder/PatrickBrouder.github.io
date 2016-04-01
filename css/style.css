@@ -1,1 +1,61 @@
 .hide { display: none; }
+
+ul#filterButtons {
+  float: left; 
+  width: 100%;
+
+  list-style: none; 
+  
+}
+
+ul#filterButtons li {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  margin-left: 10px;
+}
+
+
+ul#filterButtons li.current a { 
+    color: #000000;
+    font-weight: bold; 
+}
+ul#filterButtons li a { 
+    color: darkgray;
+
+}
+
+ul#thumbnails { 
+  float: left; 
+  list-style: none; 
+  margin-left: 0; 
+}
+ul#thumbnails li { 
+  border: 1px solid darkgrey; 
+  float: left; 
+  padding: 5px;
+  margin: 0 5px 5px 0; 
+  
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.navbar-nav li a:hover {
+    color: darkgray !important;
+}
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div#welcomePage {
+    padding-top: 75px;
+}
+div#galleryPage {
+    padding-top: 75px;
+}
