@@ -13,15 +13,18 @@ div#courseInfo a.current {
     font-weight: bold; 
     
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 999px) {
     #welcomePage {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
-#welcomePage {
-    padding-left: 400px;
-    padding-right: 400px;
+
+@media (min-width: 1000px) {
+    #welcomePage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
 #galleryPage {
     padding-left: 400px;
