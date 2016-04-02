@@ -26,26 +26,69 @@ div#courseInfo a.current {
         padding-right: 250px;
     }
 }
-#galleryPage {
-    padding-left: 400px;
-    padding-right: 400px;
+@media (max-width: 999px) {
+    #galleryPage {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
-#aboutPage {
-    padding-left: 400px;
-    padding-right: 400px;
+
+@media (min-width: 1000px) {
+    #galleryPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
-#contactPage {
-    padding-left: 400px;
-    padding-right: 400px;
+@media (min-width: 999px) {
+    #aboutPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
-#sponsorsPage {
-    padding-left: 400px;
-    padding-right: 400px;
+@media (min-width: 1000px) {
+    #aboutPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
-#findPage {
-    padding-left: 400px;
-    padding-right: 400px;
+@media (min-width: 999px) {
+    #contactPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
+@media (min-width: 1000px) {
+    #contactPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+
+@media (min-width: 999px) {
+    #sponsorsPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1000px) {
+    #sponsorsPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 999px) {
+    #findPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1000px) {
+    #findPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+
 
 
 div#courseInfo{ 
