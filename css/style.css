@@ -1,5 +1,61 @@
 .hide { display: none; }
 
+.blueBk {
+    
+    background:url(dark_embroidery.png)repeat;
+    color:white;
+}
+.whiteBk {
+    background-color: #F7FBF6;
+}
+div#courseInfo a.current { 
+    color: #000000;
+    font-weight: bold; 
+    
+}
+#welcomePage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#galleryPage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#aboutPage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#contactPage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#sponsorsPage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#findPage {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+
+div#courseInfo{ 
+     background-color: darkgray;
+    
+}
+div#aboutCourses{ 
+     background-color: #F7FBF6;
+    
+}
+
+div#courseInfo div.current{
+    background-color: #F7FBF6;
+}
+div#courses{
+    background-color: #F7FBF6;
+    color:black;
+}
+
 ul#filterButtons {
   float: left; 
   width: 100%;
@@ -10,11 +66,11 @@ ul#filterButtons {
 
 ul#filterButtons li {
   float: left;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-  margin-left: 10px;
+  
+  
 }
 
 
@@ -22,6 +78,7 @@ ul#filterButtons li.current a {
     color: #000000;
     font-weight: bold; 
 }
+
 ul#filterButtons li a { 
     color: darkgray;
 
