@@ -13,6 +13,12 @@ div#courseInfo a.current {
     font-weight: bold; 
     
 }
+@media screen and (max-width: 800px) {
+    #welcomePage {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 #welcomePage {
     padding-left: 400px;
     padding-right: 400px;
