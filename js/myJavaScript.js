@@ -35,5 +35,11 @@ $(document).ready(function() {
 		$('#navButtons li.active').removeClass('active');
         $(this).addClass('active');    
 	});
-    
+    $('#indexLinks img').hover(function(){
+        var w=$(this).width();
+        var imageH=$(this).height();
+			$(this).animate({width:w+25,height:imageH+25},'2000');
+		},function(){
+			$(this).animate({width:'150px',height:'150px'},'2000');
+	});
 });

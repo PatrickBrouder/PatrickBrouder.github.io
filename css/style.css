@@ -60,6 +60,18 @@ div#courseInfo a.current {
 
 @media (min-width: 1024px) {
     #welcomePage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #welcomePage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
+    #welcomePage {
         padding-left: 400px;
         padding-right: 400px;
     }
@@ -73,6 +85,18 @@ div#courseInfo a.current {
 }
 
 @media (min-width: 1024px) {
+    #galleryPage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #galleryPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
     #galleryPage {
         padding-left: 400px;
         padding-right: 400px;
@@ -86,6 +110,18 @@ div#courseInfo a.current {
 }
 
 @media (min-width: 1024px) {
+    #aboutPage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #aboutPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
     #aboutPage {
         padding-left: 400px;
         padding-right: 400px;
@@ -99,6 +135,18 @@ div#courseInfo a.current {
 }
 
 @media (min-width: 1024px) {
+    #contactPage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #contactPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
     #contactPage {
         padding-left: 400px;
         padding-right: 400px;
@@ -112,6 +160,18 @@ div#courseInfo a.current {
 }
 
 @media (min-width: 1024px) {
+    #sponsorsPage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #sponsorsPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
     #sponsorsPage {
         padding-left: 400px;
         padding-right: 400px;
@@ -125,6 +185,18 @@ div#courseInfo a.current {
 }
 
 @media (min-width: 1024px) {
+    #findPage {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media (min-width: 1400px) {
+    #findPage {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media (min-width: 1800px) {
     #findPage {
         padding-left: 400px;
         padding-right: 400px;
