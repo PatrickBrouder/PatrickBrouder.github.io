@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+	animateScreen();
 	$('#filterButtons li').click(function(e) {
 		var catFilter= $(this).attr('data-filter');
         $('ul#filterButtons li.current').removeClass('current');
@@ -43,3 +43,14 @@ $(document).ready(function() {
 			$(this).animate({width:'150px',height:'150px'},'2000');
 	});
 });
+function animateScreen(){
+	$('#indexImage').hide().fadeIn(3000);
+    var windowWidth = $(window).innerWidth();
+    var windowWidth = windowWidth-15;
+    var imgWidth = $('#indexImage img').innerWidth();
+    
+    $('#indexImage img').css({position:'relative'})
+                        .animate({left:windowWidth-imgWidth}, 5000)
+                        .animate({left:windowWidth/2-imgWidth/2}, 5000);
+	
+}
