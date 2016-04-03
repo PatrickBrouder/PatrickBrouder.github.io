@@ -6,6 +6,10 @@ body#indexPage{
     text-align: center;
     color:white;
 }
+body#contactDone{
+    background:url(dark_embroidery.png)repeat;
+    color:white;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: Impact, Charcoal, sans-serif;
     text-align: center;
