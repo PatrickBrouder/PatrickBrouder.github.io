@@ -1,91 +1,133 @@
-.hide { display: none; }
-
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body#indexPage{
+    background-color: #6bb5e0;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis', sans-serif;
+}
+#frontImage {
+    width: 100%;
+    height: auto;
+}
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#indexLinks{
+    padding-top: 50px;
+}
+#welcomeText{
+    padding-top: 10px;
+}
 .blueBk {
     
     background:url(dark_embroidery.png)repeat;
     color:white;
 }
+#indexImage{
+    background: url(../images/front.png);
+
+}
 .whiteBk {
     background-color: #F7FBF6;
 }
+.jumbotron{
+    background:rgba(255,255,255, 0.5);
+}
+
 div#courseInfo a.current { 
     color: #000000;
     font-weight: bold; 
+    text-decoration: none;
     
 }
-@media (max-width: 999px) {
+#courseInfo a:hover{
+    text-decoration: none;
+}
+#courseInfo {
+    text-align: center;
+}
+@media (max-width: 1023px) {
     #welcomePage {
         padding-left: 35px;
         padding-right: 35px;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     #welcomePage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 400px;
+        padding-right: 400px;
     }
 }
-@media (max-width: 999px) {
+
+@media (max-width: 1023px) {
     #galleryPage {
         padding-left: 35px;
         padding-right: 35px;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     #galleryPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 400px;
+        padding-right: 400px;
     }
 }
-@media (min-width: 999px) {
+@media (max-width: 1023px) {
     #aboutPage {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-}
-@media (min-width: 1000px) {
-    #aboutPage {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-}
-@media (min-width: 999px) {
-    #contactPage {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-}
-@media (min-width: 1000px) {
-    #contactPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
 
-@media (min-width: 999px) {
+@media (min-width: 1024px) {
+    #aboutPage {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+@media (max-width: 1023px) {
+    #contactPage {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #contactPage {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+@media (max-width: 1023px) {
     #sponsorsPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 1024px) {
     #sponsorsPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 400px;
+        padding-right: 400px;
     }
 }
-@media (min-width: 999px) {
+@media (max-width: 1023px) {
     #findPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
-@media (min-width: 1000px) {
+
+@media (min-width: 1024px) {
     #findPage {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 400px;
+        padding-right: 400px;
     }
 }
 
@@ -149,12 +191,15 @@ ul#thumbnails li {
   
 }
 
-.navbar {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 0;
+#navButtons li a{
+    color: #6bb5e0;
 }
-
+#navHeader{
+    color: #6bb5e0;
+}
+#navHeader:hover {
+    color: darkgray !important;
+}
 .navbar-nav li a:hover {
     color: darkgray !important;
 }

@@ -31,5 +31,9 @@ $(document).ready(function() {
 		});
          e.preventDefault();
 	});
+    $('#navButtons li').click(function(e) {
+		$('#navButtons li.active').removeClass('active');
+        $(this).addClass('active');    
+	});
     
 });
