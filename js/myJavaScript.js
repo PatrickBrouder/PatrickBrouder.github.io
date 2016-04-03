@@ -48,7 +48,7 @@ function animateScreen(){
     $('#indexLinks').hide();
 	$('#indexImage').hide().fadeIn(3000);
     var windowWidth = $(window).innerWidth();
-    var windowWidth = windowWidth-15;
+    var windowWidth = windowWidth-20;
     var imgWidth = $('#indexImage img').innerWidth();
     $('#indexImage img').css({position:'relative'})
                         .animate({left:windowWidth-imgWidth}, 5000)
