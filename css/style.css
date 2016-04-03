@@ -7,12 +7,13 @@ body#indexPage{
     color:white;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Dosis', sans-serif;
+	font-family: Impact, Charcoal, sans-serif;
     text-align: center;
 }
 #bottomSponsors{
     padding-top: 40px;
 }
+
 #frontImage {
     width: 100%;
     height: auto;
@@ -54,8 +55,7 @@ img.centered2 {
 }
 
 div#courseInfo a.current { 
-    color: #000000;
-    font-weight: bold; 
+    color: #000000; 
     text-decoration: none;
     
 }

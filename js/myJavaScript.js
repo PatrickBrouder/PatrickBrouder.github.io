@@ -44,7 +44,6 @@ $(document).ready(function() {
 	});
 });
 function animateScreen(){
-    $('#bottomDiv').hide();
     $('#indexLinks').hide();
 	$('#indexImage').hide().fadeIn(3000);
     var windowWidth = $(window).innerWidth();
@@ -59,9 +58,7 @@ function animateScreen(){
                      .css({top:topheight})
                      .fadeIn({queue: false, duration: 5000})
                      .animate({top:topheight-(topheight2-50)}, 5000);
-    $('#bottomDiv').css({position:'relative'})
-                     .css({top:topheight})
-                     .fadeIn({queue: false, duration: 5000})
-                     .animate({top:topheight-(topheight2-50)}, 5000);
+    $('#bottomDiv').hide().fadeIn(3000);
+    
                         
 }
