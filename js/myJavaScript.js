@@ -44,13 +44,24 @@ $(document).ready(function() {
 	});
 });
 function animateScreen(){
+    $('#bottomDiv').hide();
+    $('#indexLinks').hide();
 	$('#indexImage').hide().fadeIn(3000);
     var windowWidth = $(window).innerWidth();
     var windowWidth = windowWidth-15;
     var imgWidth = $('#indexImage img').innerWidth();
-    
     $('#indexImage img').css({position:'relative'})
                         .animate({left:windowWidth-imgWidth}, 5000)
                         .animate({left:windowWidth/2-imgWidth/2}, 5000);
-	
+	var topheight = $('#indexImage').innerHeight();
+    var topheight2 = $('#indexLinks').innerHeight();
+     $('#indexLinks').css({position:'relative'})
+                     .css({top:topheight})
+                     .fadeIn({queue: false, duration: 5000})
+                     .animate({top:topheight-(topheight2-50)}, 5000);
+    $('#bottomDiv').css({position:'relative'})
+                     .css({top:topheight})
+                     .fadeIn({queue: false, duration: 5000})
+                     .animate({top:topheight-(topheight2-50)}, 5000);
+                        
 }
